@@ -1,0 +1,25 @@
+server:
+
+  port: 80
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: LEGACYHTML5
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+#spring:
+#  mvc:
+#    view:
+#      prefix: /jsp/
+#      suffix: .jsp
+#  servlet:
+#    context-path:
+#spring:
+#  activemq:
+#    broker-url:
+
+
